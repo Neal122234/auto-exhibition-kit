@@ -1,0 +1,48 @@
+{
+  "id": "wave",
+  "zh": "浮世绘",
+  "lat": "Ukiyo-e",
+  "yrs": "c. 1831",
+  "one": "浪头举起来，富士山很小",
+  "wall": "#E4DCCB",
+  "ink": "dark",
+  "frame": "white",
+  "art": {
+    "img": "main.webp", "w": 2400, "h": 1613,
+    "who": "葛饰北斋",
+    "whoLat": "Katsushika Hokusai, 1760 – 1849",
+    "title": "《神奈川冲浪里》",
+    "short": "《神奈川冲浪里》",
+    "meta": ["约 1830–1832 年，木版画", "约 25.7 × 37.9 cm", "纽约，大都会艺术博物馆（JP1847）"],
+    "credit": "Wikimedia Commons, File:Tsunami by hokusai 19th century.jpg — 来源 大都会艺术博物馆，公有领域"
+  },
+  "lede": "《富岳三十六景》的一张：题目是富士山，画面的主角却是一道浪。",
+  "work": "巨浪从左边卷起，浪尖碎成一只只爪子，三条运货的快船压在浪谷里。远处的富士山被放在浪的弧线里，小得像另一个浪头。蓝色用的是当时新进口的普鲁士蓝。这是一张木版画，同一块版印过数千张，这一张藏在纽约。",
+  "quote": [],
+  "origin": "江户时代的城市里，版画是平民买得起的画：戏子、美人、名所。北斋七十岁前后画了这组富士山，把西洋的远近法和新颜料用进了传统的木版。",
+  "traits": [
+    ["远近", "近处的浪顶天立地，远处的山只有指甲大，这种远近对比来自西洋版画。"],
+    ["线与平涂", "没有明暗，只有轮廓线和几块平涂的颜色，浪的力量全在线的方向里。"]
+  ],
+  "special": {
+    "title": "凑近看",
+    "type": "detail",
+    "text": "点下面的名字，把画的一小块放大到面板里。",
+    "spots": [
+      {"label": "浪爪", "box": [990, 180, 1410, 690], "text": "浪尖碎成一只只小爪子。"},
+      {"label": "富士山", "box": [1340, 990, 1700, 1210], "text": "山顶的雪用的是纸本身的白。"},
+      {"label": "题签", "box": [110, 90, 260, 470], "text": "左上角的方框写着系列名和画题。"}
+    ]
+  },
+  "works": [
+    {"img": "w1.webp", "w": 1200, "h": 801, "who": "葛饰北斋", "whoLat": "Katsushika Hokusai, 1760 – 1849", "title": "《凯风快晴》",
+     "meta": ["约 1830–1832 年，木版画", "尺寸不详", "藏处不详（Wikimedia Commons 图像）"],
+     "note": "同一系列：清晨的红富士。",
+     "credit": "Wikimedia Commons, File:Red Fuji southern wind clear morning.jpg — 公有领域"}
+  ],
+  "chain": "演示到这里结束。真正的展览里，这一段会连到下一厅。",
+  "sources": [
+    {"label": "大都会艺术博物馆 · Under the Wave off Kanagawa", "claim": "约 1830–32 年，木版画，JP1847", "url": "https://www.metmuseum.org/art/collection/search/45434"},
+    {"label": "英文维基百科 · The Great Wave off Kanagawa", "claim": "普鲁士蓝；富岳三十六景", "url": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa"}
+  ]
+}

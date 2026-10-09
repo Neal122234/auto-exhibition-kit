@@ -1,0 +1,28 @@
+{
+  "_doc": "引擎演示：两厅，一个转场（t-wave），一个特别展项类型（s-detail）。字段说明见 js/API.md「exhibit.json」。",
+  "title": "光与浪",
+  "titleLat": "Exhibit Kit Demo",
+  "description": "展览引擎的两厅演示：维米尔的光，北斋的浪。",
+  "lang": "zh-CN",
+  "rooms": [
+    {"id": "pearl", "era": "德尔夫特"},
+    {"id": "wave", "era": "浮世绘"}
+  ],
+  "hold": 11,
+  "palette": {"bg": "#0b0c0e", "accent": "#b9a26a", "gate": "#060708"},
+  "fonts": {
+    "css": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Noto+Serif+SC:wght@300;400;500&display=swap",
+    "text": "\"Noto Serif SC\",\"Songti SC\",\"STSong\",\"SimSun\",serif",
+    "latin": "\"Bodoni Moda\",\"Didot\",\"Bodoni 72\",serif",
+    "check": ["Noto Serif SC", "Bodoni Moda"]
+  },
+  "beds": {"pearl": "chapel"},
+  "text": {
+    "gate": "轻点进入展厅",
+    "gateSub": "click to enter",
+    "hOrigin": "它从哪里来",
+    "hTraits": "要看的地方",
+    "compareEra": "与{zh}并看"
+  },
+  "share": {"room": "wave", "state": "rest", "wait": 3, "alt": "光与浪 · 浮世绘厅：葛饰北斋《神奈川冲浪里》"}
+}

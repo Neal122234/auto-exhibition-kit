@@ -1,0 +1,9 @@
+{
+"file": "sprites/wave.mp3",
+"map": {
+"sfx/wave-hit.mp3": [
+0.3,
+2.2
+]
+}
+}

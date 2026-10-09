@@ -1,0 +1,17 @@
+{
+"file": "sprites/ui.mp3",
+"map": {
+"sfx/ui-close.mp3": [
+0.3,
+0.3
+],
+"sfx/ui-open.mp3": [
+0.9,
+0.35
+],
+"sfx/ui-view.mp3": [
+1.55,
+0.25
+]
+}
+}

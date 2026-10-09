@@ -1,0 +1,8 @@
+{
+  "name": "exhibit-deploy",
+  "private": true,
+  "description": "wrangler for deploy.sh (Cloudflare Pages)",
+  "devDependencies": {
+    "wrangler": "^4.140.0"
+  }
+}

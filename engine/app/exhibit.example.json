@@ -1,0 +1,34 @@
+{
+  "_doc": "字段说明见 js/API.md「exhibit.json」。rooms 的顺序就是参观顺序；era 是时间线上的标签（缺省用 room.json 的 zh）。",
+  "title": "展览名",
+  "titleLat": "Exhibition Title",
+  "description": "一句话介绍，用于搜索结果和分享卡片。",
+  "lang": "zh-CN",
+  "rooms": [
+    {"id": "room-one", "era": "第一厅"},
+    {"id": "room-two", "era": "第二厅"}
+  ],
+  "hold": 11,
+  "palette": {
+    "bg": "#0b0908", "wall": "#161210", "inkLight": "#efe6d6", "inkDark": "#24211d", "accent": "#b08d57",
+    "gate": "#050403", "gateInk": "#cdbfa8", "gateInk2": "#a89c88",
+    "view": "#120f0d", "viewInk": "#efe6d6", "viewInk2": "#cfc4b2", "viewInk3": "#a89c88", "line": "#f7f4ee"
+  },
+  "fonts": {
+    "css": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Noto+Serif+SC:wght@300;400;500&display=swap",
+    "text": "\"Noto Serif SC\",\"Songti SC\",\"STSong\",\"SimSun\",serif",
+    "latin": "\"Bodoni Moda\",\"Didot\",\"Bodoni 72\",serif",
+    "check": ["Noto Serif SC", "Bodoni Moda"]
+  },
+  "frames": {},
+  "beds": {},
+  "panel": {"palette": true, "lens": true, "compare": true},
+  "gate": {"mark": "flame"},
+  "text": {
+    "gate": "点亮火光，进入展厅",
+    "gateSub": "click to light the lamp",
+    "hOrigin": "这个时代从哪里来",
+    "hTraits": "他们改变了什么"
+  },
+  "share": {"room": "room-one", "state": "rest", "wait": 6, "alt": "展览名 · 展厅一景"}
+}

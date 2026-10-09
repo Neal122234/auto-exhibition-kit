@@ -1,0 +1,26 @@
+# Exhibition source backup (private). Build outputs, test shots and scratch data stay out.
+.DS_Store
+*.tmp
+node_modules/
+shots/
+deploy/dist/
+deploy/mirror/
+deploy/check-*.json
+app/shots/
+app/_pub/
+app/local*.html
+app/site.html
+app/exhibit.js
+app/data.bundle.js
+app/mods.bundle.js
+app/audio/manifest.js
+app/rooms/*/room.js
+app/rooms/_list.js
+# _wip: keep the scripts and notes that generated assets, not the intermediate images
+app/_wip/**
+!app/_wip/**/
+!app/_wip/**/*.py
+!app/_wip/**/*.mjs
+!app/_wip/**/*.md
+!app/_wip/**/*.js
+!app/_wip/fonts-cache/**

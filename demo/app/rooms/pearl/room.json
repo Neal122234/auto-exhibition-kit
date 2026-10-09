@@ -1,0 +1,48 @@
+{
+  "id": "pearl",
+  "zh": "德尔夫特",
+  "lat": "Delft",
+  "yrs": "c. 1665",
+  "one": "光从左边来，停在一颗珍珠上",
+  "wall": "#15171C",
+  "ink": "light",
+  "frame": "gilt",
+  "art": {
+    "img": "main.webp", "w": 2050, "h": 2400,
+    "who": "约翰内斯·维米尔",
+    "whoLat": "Johannes Vermeer, 1632 – 1675",
+    "title": "《戴珍珠耳环的少女》",
+    "short": "《戴珍珠耳环的少女》",
+    "meta": ["约 1665 年，布面油画", "44.5 × 39 cm", "海牙，莫瑞泰斯皇家美术馆（Inv. 670）"],
+    "credit": "Wikimedia Commons, File:Meisje met de parel.jpg — 来源 莫瑞泰斯皇家美术馆，公有领域"
+  },
+  "lede": "一幅不是肖像的“肖像”：没有人知道她是谁，维米尔也许只想画一张脸在光里转过来的那一瞬。",
+  "work": "少女从暗处回头，嘴唇微张，目光正对着看画的人。背景几乎全黑，光从左上方来，落在额头、鼻梁、下唇和那颗大珍珠上。珍珠只用了两笔：一笔亮点，一笔衣领的反光。蓝色头巾用的是昂贵的天然群青。",
+  "quote": [],
+  "origin": "17 世纪的荷兰共和国靠贸易致富，买画的是市民而不是教会。画家们画室内、风景、静物，也画这种不指名道姓的“头像”（tronie）。维米尔一生留下的画不到四十幅，大多是德尔夫特家中一角的光。",
+  "traits": [
+    ["光的方向", "几乎所有维米尔的室内画，光都从左边的窗进来。这里看不见窗，但光的方向没有变。"],
+    ["两笔珍珠", "凑近看，珍珠没有轮廓线，只有一个亮点和下缘一抹反光，眼睛自己把它补成了圆。"]
+  ],
+  "special": {
+    "title": "凑近看",
+    "type": "detail",
+    "text": "点下面的名字，把画的一小块放大到面板里。",
+    "spots": [
+      {"label": "珍珠", "box": [1150, 1180, 1420, 1450], "text": "一个亮点加一抹反光，没有轮廓线。"},
+      {"label": "眼睛", "box": [650, 820, 1060, 1060], "text": "两只眼睛里各有一个小小的高光。"},
+      {"label": "嘴唇", "box": [640, 1160, 940, 1380], "text": "下唇的湿润也只是一两个亮点。"}
+    ]
+  },
+  "works": [
+    {"img": "w1.webp", "w": 1070, "h": 1200, "who": "约翰内斯·维米尔", "whoLat": "Johannes Vermeer, 1632 – 1675", "title": "《倒牛奶的女仆》",
+     "meta": ["约 1658–1660 年，布面油画", "45.5 × 41 cm", "阿姆斯特丹，荷兰国立博物馆（SK-A-2344）"],
+     "note": "同样是左边窗户进来的光。",
+     "credit": "Wikimedia Commons, File:Johannes Vermeer - Het melkmeisje - Google Art Project.jpg — 来源 Google Arts & Culture，公有领域"}
+  ],
+  "chain": "下一厅换到地球另一边：同一个世纪之后，日本的版画师不画光，而用线和平涂的颜色画出一道浪。",
+  "sources": [
+    {"label": "莫瑞泰斯皇家美术馆 · Girl with a Pearl Earring", "claim": "约 1665 年，44.5 × 39 cm，Inv. 670", "url": "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring/"},
+    {"label": "英文维基百科 · Girl with a Pearl Earring", "claim": "tronie；群青", "url": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring"}
+  ]
+}

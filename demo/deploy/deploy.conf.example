@@ -1,0 +1,23 @@
+# deploy.conf — read by deploy.sh (zsh "source"). Copy to deploy.conf and fill in. Only CF_PROJECT is required.
+
+# Cloudflare Pages project (classic Pages, not Workers: workers.dev is unreachable from mainland China).
+# Create it once: (cd deploy && npx wrangler pages project create <name> --production-branch main)
+CF_PROJECT=my-exhibition
+# Production URL; default https://$CF_PROJECT.pages.dev
+SITE_URL=
+
+# GitHub Pages mirror (optional; empty = no mirror). A public repo with Pages enabled on its main branch, root folder.
+MIRROR_REPO=            # e.g. <github-user>/my-exhibition
+MIRROR_URL=             # e.g. https://<github-user>.github.io/my-exhibition/
+
+# Private source backup (optional). The project folder must be a git repo whose origin is this repo.
+SOURCE_REPO=            # e.g. <github-user>/my-exhibition-src
+
+# Commit identity for the mirror and the backup (optional; default: your git config)
+GIT_NAME=
+GIT_EMAIL=
+# Extra paragraph for the source-backup commit message (optional), e.g. a Co-Authored-By line
+COMMIT_TRAILER=
+
+# Ship rooms only up to this room id (optional; unfinished later rooms stay off the public site)
+UPTO=

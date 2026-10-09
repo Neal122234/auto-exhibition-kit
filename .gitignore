@@ -1,0 +1,18 @@
+# Build outputs and scratch; the demo is rebuilt from its sources
+.DS_Store
+*.tmp
+node_modules/
+__pycache__/
+demo/deploy/dist/
+demo/deploy/mirror/
+demo/deploy/check-*.json
+demo/app/_pub/
+demo/app/local*.html
+demo/app/site.html
+demo/app/exhibit.js
+demo/app/data.bundle.js
+demo/app/mods.bundle.js
+demo/app/audio/manifest.js
+demo/app/rooms/*/room.js
+demo/app/rooms/_list.js
+tools/wkprobe/wkprobe

@@ -1,0 +1,7 @@
+{ "sfx": {
+    "ui-open":  {"files": ["sfx/ui-open.mp3"],  "gain": -12, "room": "ui"},
+    "ui-close": {"files": ["sfx/ui-close.mp3"], "gain": -12, "room": "ui"},
+    "ui-view":  {"files": ["sfx/ui-view.mp3"],  "gain": -14, "room": "ui"},
+    "wave-hit": {"files": ["sfx/wave-hit.mp3"], "gain": -8,  "room": "wave"}
+  },
+  "music": {} }
